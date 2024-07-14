@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+@media screen and (max-width: 576px;){
+    header{
+        width: 100vh;
+        height: 10px;
+    }
+    header h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 100;
+        text-shadow: 2px 2px #a1a199;
+    }
+    header p{
+        color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: -30px;
+    }
+    header button{
+        color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    position: relative;
+    top: -20px;
+    }
+
+    /* header end here  */
+
+    /* section 1 start here  */
+
+    .amount{
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: normal;
+        
+      
+    }
+
+    /* section 1 end here  */
+
+
+
+  
+}
+
+
+
+
+
+/* header section startr here */
+
+header{
+    background-image:linear-gradient(0.00deg, rgb(19, 19, 19),rgba(18, 18, 18, 0) 80%), url('../images/donation8.jpg');
+    max-width: 1550px;
+    height: 669px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 65px;
+font-weight: 700;
+text-shadow: 2px 2px #a1a199;
+}
+
+header p{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+position: relative;
+top: -30px;
+}
+
+ button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+width: 160px;
+height: 56px;
+border-radius: 5px;
+background: rgb(255, 89, 89);
+position: relative;
+top: -20px;
+border: none;
+}
+
+ /* header end here  */
+
+    /* section 1 start here  */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.section1 h1{
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+}
+.section1 p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+margin-top: -10px;
+text-align: center;
+}
+
+.section1 >.taka{
+    color: rgb(179, 179, 179);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+opacity: 0.07px;
+
+}
+.amount{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 22px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+
+}
+
+.amount-number{
+    width: 135px;
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: rgb(112, 112, 112);
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+margin-top: 50px;
+
+}
+
+#two-hundred{
+    border: 2px solid rgb(255, 89, 89);
+border-radius: 5px;
+background: rgb(255, 238, 238);
+width: 135px;
+height: 123px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+color: rgb(112, 112, 112);
+margin-top: 50px;
+}
+
+.taka{
+    padding-top: 50px;
+}
+
+.section1 button{
+   margin-top: 20px;
+}
+
+
+/* section 1 end here  */
+
+
+/* section 2 start here  */
+
+.section2 >h1{
+    
+    text-align: center;
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+line-height: 54px;
+margin-top: 70px;
+
+
+}
+.section2 >p{
+    
+    text-align: center;
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+
+
+}
+
+.section2-container{
+    display: flex;
+    
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    
+
+}
+
+.section2-container >div >h1{
+    color: rgb(18, 18, 18);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+}
+.section2-container >div >p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+}
+
+.section2-container .section2-container-div1{
+    border-radius: 5px;
+background: rgba(79, 157, 166, 0.1);
+padding: 23px;
+}
+
+.section2-container .section2-container-div2{
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.1);
+padding: 23px;
+}
+
+.section2-container .section2-container-div3{
+    border-radius: 5px;
+    background-color: antiquewhite;
+padding: 23px;
+}
