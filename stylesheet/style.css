@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&display=swap');
 
 @media screen and (max-width: 576px;){
     header{
@@ -51,6 +51,20 @@
     }
 
     /* section 1 end here  */
+
+
+    /* no section 2  */
+
+    /* section 3 start here  */
+
+    .section3-container{
+        display: flex;
+        margin-top: 80px;
+        padding: 0px;
+        gap: 0px;
+        
+        
+    }
 
 
 
@@ -264,4 +278,230 @@ padding: 23px;
     border-radius: 5px;
     background-color: antiquewhite;
 padding: 23px;
+}
+
+/* section 2 end here  */
+
+/* section 3 start here  */
+
+.section3-container{
+    display: flex;
+    margin-top: 80px;
+    padding: 120px;
+    gap: 170px;
+    flex-wrap: wrap;
+    
+}
+   
+    
+
+.section3-container-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.section3-container-div1 >h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: -20px;
+   
+    
+    
+}
+
+.section3-container-div1 p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+}
+
+.section3-container-div1 button{
+    width: 230px;
+height: 56px;
+border-radius: 5px;
+background: rgb(255, 89, 89);
+color: white;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+position: relative;
+top: 20px;
+}
+
+.section3-container-div2{
+    height: 550px;
+    width: 500px;}
+   
+    
+
+.section3-container-div2 >img{
+    height: 100%;
+    width: 100%;
+}
+    
+.section3-container2{
+    display: flex;
+    margin-top: -80px;
+    padding: 120px;
+    gap: 140px;
+    flex-wrap: wrap;
+}
+
+.section3-container2-div3{
+    height: 550px;
+    width: 500px;
+
+}
+   
+    
+
+.section3-container2-div3 >img{
+    height: 100%;
+    width: 100%;
+}
+
+.section3-container2-div4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.section3-container2-div4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.section3-container2-div4 >h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: -20px;
+   
+    
+    
+}
+
+.section3-container2-div4 p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+}
+
+.section3-container2-div4 button{
+    width: 230px;
+height: 56px;
+border-radius: 5px;
+background: rgb(255, 89, 89);
+color: white;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+position: relative;
+top: 20px;
+}
+
+
+
+/* section 3 end here  */
+
+
+/* section 4 start here  */
+
+.section4-container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section4-container >h2{
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+}
+
+.section4-container >p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+.section4-container-div1{
+    max-width: 809px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(255, 244, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section4-container-div1 >input{
+    width: 275px;
+height: 48px;
+border-radius: 5px 0px 0px 5px;
+background: rgb(217, 217, 217);
+border: none; 
+padding-left: 20px;
+}
+
+.section4-container-div1 >button{
+    width:  157px;
+height: 50px;
+border-radius: 0px 5px 5px 0px;
+background: rgb(255, 89, 89);
+color: white;
+margin-top: 40px;
+
+
+}
+
+
+/* section 4 end here  */
+
+/* footer start here */
+
+
+footer{
+    
+background: rgb(11, 13, 23);
+height: 177px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+footer h1{
+    color: rgb(255, 89, 89);
+font-family: Lobster;
+font-size: 36px;
+font-weight: 400;
+}
+
+footer p{
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+margin-top: -8px;
 }
