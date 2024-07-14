@@ -5,71 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&display=swap');
 
-@media screen and (max-width: 576px;){
-    header{
-        width: 100vh;
-        height: 10px;
-    }
-    header h1{
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 30px;
-        font-weight: 100;
-        text-shadow: 2px 2px #a1a199;
-    }
-    header p{
-        color: rgb(255, 255, 255);
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    top: -30px;
-    }
-    header button{
-        color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    width: 160px;
-    height: 56px;
-    border-radius: 5px;
-    background: rgb(255, 89, 89);
-    position: relative;
-    top: -20px;
-    }
-
-    /* header end here  */
-
-    /* section 1 start here  */
-
-    .amount{
-        align-items: center;
-        justify-content: space-evenly;
-        align-content: normal;
-        
-      
-    }
-
-    /* section 1 end here  */
-
-
-    /* no section 2  */
-
-    /* section 3 start here  */
-
-    .section3-container{
-        display: flex;
-        margin-top: 80px;
-        padding: 0px;
-        gap: 0px;
-        
-        
-    }
-
-
-
-  
-}
 
 
 
@@ -79,7 +14,7 @@
 
 header{
     background-image:linear-gradient(0.00deg, rgb(19, 19, 19),rgba(18, 18, 18, 0) 80%), url('../images/donation8.jpg');
-    max-width: 1550px;
+    
     height: 669px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,6 +225,7 @@ padding: 23px;
     padding: 120px;
     gap: 170px;
     flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
     
 }
    
@@ -299,6 +235,7 @@ padding: 23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     
 }
 
@@ -337,7 +274,8 @@ top: 20px;
 
 .section3-container-div2{
     height: 550px;
-    width: 500px;}
+    width: 500px;
+}
    
     
 
@@ -504,4 +442,105 @@ font-family: Manrope;
 font-size: 14px;
 font-weight: 400;
 margin-top: -8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    header{
+        width: 100%;
+        
+    }
+    header h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        text-shadow: 2px 2px #a1a199;
+    }
+    header p{
+        color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: -30px;
+    }
+    header button{
+        color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    position: relative;
+    top: -20px;
+    }
+
+    /* header end here  */
+
+    /* section 1 start here  */
+
+    .amount{
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: normal;
+        
+      
+    }
+
+    /* section 1 end here  */
+
+   
+
+
+    /* no section 2  */
+
+    /* section 3 start here  */
+
+    .section3-container{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .section3-container-div2{
+        
+        width: 350px;
+    }
+    .section3-container2{
+        padding: 0px;
+        margin-top: 80px;
+    }
+    
+.break{
+    display: none;
+}
+
+.section4-container-div1{
+    max-width: 300px;
+    height: 150px;
+}
+.section4-container-div1 >input{
+    width: 137px;
+    font-size: 12px;
+}
+.section4-container-div1 >button{
+    width:  78px;
+    font-size: 12px;
+}
+
+
 }
